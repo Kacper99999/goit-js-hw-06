@@ -1,1 +1,1 @@
-console.log(document);
+const response = document.querySelector("h2")
