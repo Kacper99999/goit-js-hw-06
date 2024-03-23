@@ -20,11 +20,3 @@ const markup = images.map((element) => `<li><img class = "image" src = "${elemen
 gallery.insertAdjacentHTML("beforeend",markup);
 
 const image = document.querySelectorAll(".image");
-
-image.forEach((element) =>{
-  element.style.display = "flex";
-  element.style.width = "600px";
-  element.style.height = "400px";
-  element.style.objectFit = "cover";
-  element.style.marginBottom = "20px";
-});

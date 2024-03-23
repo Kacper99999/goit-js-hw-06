@@ -22,3 +22,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* Task-03 */
+.image{
+  display: flex;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
