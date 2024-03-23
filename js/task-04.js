@@ -8,10 +8,10 @@ const value = document.querySelector("#value");
 
 decrement.addEventListener("click",() => {
   counterValue -= 1;
-  value.innerHTML = `<span id='value'>${counterValue}</span>`
+  value.textContent = counterValue;
 });
 
 inctement.addEventListener("click",() => {
   counterValue += 1;
-  value.innerHTML = `<span id='value'>${counterValue}</span>`;
+  value.textContent = counterValue;
 });
