@@ -14,4 +14,4 @@ decrement.addEventListener("click",() => {
 inctement.addEventListener("click",() => {
   counterValue += 1;
   value.innerHTML = `<span id='value'>${counterValue}</span>`;
-});
+}); 
