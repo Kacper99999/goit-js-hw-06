@@ -14,11 +14,12 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
-const image = document.querySelectorAll(".image");
 
 const markup = images.map((element) => `<li><img class = "image" src = "${element.url}" alt = "${element.alt}"></img></li>`).join("");
 
 gallery.insertAdjacentHTML("beforeend",markup);
+
+const image = document.querySelectorAll(".image");
 
 image.forEach((element) =>{
   element.style.display = "flex";
