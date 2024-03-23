@@ -1,6 +1,6 @@
 const text = document.querySelector("#validation-input");
 
-text.addEventListener("input", (element) => {
+text.addEventListener("blur", (element) => {
   const conditon = parseInt(text.dataset.length)
   if(element.currentTarget.value.length === conditon){
     text.classList.remove("invalid");
